@@ -20,3 +20,9 @@ K-디지털 트레이닝 스마트팩토리과정
 - 빨강
   - 녹색
     - 파랑
+
+This is a normal paragraph:
+
+    This is a code block.
+    
+end code block.
