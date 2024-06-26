@@ -45,7 +45,7 @@ namespace ConsoleApp7
     }
 }
 
-# 퀴즈 1번
+## 퀴즈 1번
 namespace Quiz01
 {
     internal class Program
@@ -67,7 +67,7 @@ namespace Quiz01
     }
 }
 
-# 마이크로소프트 msdn C#
+## 마이크로소프트 msdn C#
 
 string greeting = "    안녕    ";
 Console.WriteLine(greeting);
@@ -92,7 +92,7 @@ int b = 6;
 double c = (double)a + (double)b;   //   연산자를 바꿔주는 것도 가능함
 Console.WriteLine(c);
 
-# 퀴즈 02
+## 퀴즈 02
 namespace CtoF
 {
     internal class Program
