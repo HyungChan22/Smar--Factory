@@ -1,0 +1,51 @@
+namespace ConsoleApp6
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string greeting;          //변수 선언
+            Console.Write("이름을 입력해 주세요 : ");
+            greeting = Console.ReadLine();     //값 할당, 초기화 한다.
+
+            Console.WriteLine($"당신의 이름은 {greeting} 입니다."); // 출력
+        }
+    }
+}
+
+namespace ConsoleApp7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //정수 100 값을 입력 받을려면?
+            int value;
+            value = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine(value);
+        }
+    }
+}
+
+namespace ConsoleApp7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //두 정수 value1, value2 입력 받아 그 합을 출력하라
+            int value1, value2; // 2개 변수를 동시에 설정 가능 , 아니면 
+            Console.WriteLine("정수1을 입력하세요.");
+            value1 = Int32.Parse(Console.ReadLine());  //여기서 int value1도 가능함
+            Console.WriteLine("정수2를 입력하세요.");
+            value2 = Int32.Parse(Console.ReadLine());  // ""
+            Console.WriteLine($"답은 {value1+value2} 입니다.");
+        }
+    }
+}
+
+
+
+
+
