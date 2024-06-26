@@ -45,7 +45,66 @@ namespace ConsoleApp7
     }
 }
 
+# 퀴즈 1번
+namespace Quiz01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int value1 = Int32.Parse(Console.ReadLine());
+            int value2 = Int32.Parse(Console.ReadLine());
 
+            Console.WriteLine($"{value1} {value2}");  // 100 200
 
+            int temp = value1;
+            value1 = value2;
+            value2 = temp;
 
+            Console.WriteLine($"{value1} {value2}");  // 200 100
 
+        }
+    }
+}
+
+# 마이크로소프트 msdn C#
+
+string greeting = "    안녕    ";
+Console.WriteLine(greeting);
+
+string trimmedgreeting = greeting.TrimStart();
+Console.WriteLine(trimmedgreeting);
+
+trimmedgreeting = greeting.TrimEnd();
+Console.WriteLine(trimmedgreeting);
+
+trimmedgreeting = greeting.Trim();
+Console.WriteLine(trimmedgreeting);
+
+string greeting = "Good Morning";
+
+Console.WriteLine(greeting.ToUpper());
+
+Console.WriteLine(greeting.ToLower());
+
+int a = 18;
+int b = 6;
+double c = (double)a + (double)b;   //   연산자를 바꿔주는 것도 가능함
+Console.WriteLine(c);
+
+# 퀴즈 02
+namespace CtoF
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine($"섭씨 온도를 입력해주세요.");
+            int cen = Int32.Parse(Console.ReadLine());
+            double F = (double)(9) / (double)(5) * cen + (double)(32);
+            string F = F.ToString("0.00");
+            Console.WriteLine((double)F);
+            
+        }
+    }
+}
