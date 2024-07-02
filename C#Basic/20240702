@@ -1,0 +1,24 @@
+## do while 문
+namespace DoWhile
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 1;
+
+            while (i < 5) // i에 대한 증감이있어야함
+            {
+                Console.WriteLine($"{3 * i}");
+                i++;
+            }
+
+            int k = 6;
+            do 
+            {
+                Console.WriteLine($"{3 * k}");
+                k++;
+            } while (k < 10);
+        }
+    }
+}
